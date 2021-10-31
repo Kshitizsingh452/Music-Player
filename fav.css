@@ -1,0 +1,158 @@
+body {
+  background-color: black;
+}
+.body-part {
+  background-color: rgb(46, 34, 56);
+  height: 260rem;
+  width: 89rem;
+}
+.navbar {
+  margin-top: -90px;
+}
+#carouselExampleCaptions {
+  max-height: fit-content;
+}
+/* .artist:hover{
+    transform: scale(1.5);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+} */
+
+#ls {
+  margin-right: 10px;
+  border-color: blue;
+  justify-content: space-around;
+}
+.lsong {
+  justify-content: space-between;
+}
+.artist img {
+  margin: 40px;
+  right: 15px;
+}
+.artist img:hover {
+  transform: scale(1.3);
+  transition: calc();
+}
+.artist p {
+  display: inline;
+}
+/* notification */
+.bell {
+  color: white;
+}
+
+/*mood*/
+.mood-section {
+  width: 100%;
+  display: flex;
+  height: auto;
+  align-items: center;
+  margin-top: 40px;
+  background-color: #12193e;
+}
+
+.stations {
+  width: 20%;
+  margin: 1%;
+  position: relative;
+}
+
+.mood {
+  width: 11%;
+  margin: 1%;
+  position: relative;
+  border-radius: 50%;
+}
+
+.mood-section .mood img {
+  border-radius: 50%;
+}
+
+.mood div {
+  position: absolute;
+  width: 100%;
+  height: 98%;
+  /*font-size: 1rem;*/
+  /*color: white;*/
+  border-radius: 50%;
+  background-color: grey;
+  opacity: 0.5;
+  /*text-align: center;*/
+  /*line-height: 4rem;*/
+}
+
+.mood span {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 40%;
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 90%;
+}
+.mood-section .mood img:hover {
+  box-shadow: none;
+  transform: scale(0.98) translateY(5px);
+}
+/*mood*/
+
+/*popular Artist*/
+
+.popular-artist {
+  margin-top: 30px;
+  width: 100%;
+}
+.artist-container {
+  display: flex;
+  width: 100%;
+}
+
+.artist-info {
+  width: 15%;
+  margin: 1%;
+}
+
+.artist-img img {
+  border-radius: 50%;
+}
+
+.atrist-name {
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+}
+/*popular Artist*/
+
+.btn-group {
+  right: -70rem;
+  margin-bottom: 5px;
+}
+.que {
+  text-decoration: none !important;
+}
+/* new songs */
+.new-songs {
+  width: auto;
+  height: 100px;
+}
+.c1:hover {
+  transform: scale(1.2);
+  transition: calc();
+}
+.c2:hover {
+  transform: scale(1.2);
+  transition: calc();
+}
+.c3:hover {
+  transform: scale(1.2);
+  transition: calc();
+}
+
+/* songs card */
+.songs-card {
+  padding: -10px;
+  right: 10px;
+  margin-left: 30px;
+  justify-content: space-between;
+}
